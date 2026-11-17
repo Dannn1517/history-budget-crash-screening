@@ -1,0 +1,41 @@
+{
+  "total_links": 49812,
+  "eligible_links": 43335,
+  "eligible_ratio": 0.8699710913033004,
+  "excluded": {
+    "freeway": 1280,
+    "private_service": 106,
+    "boundary_edge": 5044,
+    "centerline_below_80pct": 423
+  },
+  "centerline_audit": {
+    "buffer_10.0m": {
+      "links_matched": 43139,
+      "links_total_nonfreeway_public": 43521,
+      "length_retention": 0.9892114416582624
+    },
+    "buffer_20.0m": {
+      "links_matched": 43335,
+      "links_total_nonfreeway_public": 43521,
+      "length_retention": 0.9930514462629507
+    },
+    "buffer_30.0m": {
+      "links_matched": 43372,
+      "links_total_nonfreeway_public": 43521,
+      "length_retention": 0.9938294642774915
+    }
+  },
+  "total_link_length_km": 7390.360656708864,
+  "eligible_link_length_km": 6088.205950603482,
+  "centerline_source": "TIGER 2020 ROADS Cook County (portal 6imu-meau broken; see manifest)",
+  "vehicular_mtfcc": [
+    "S1100",
+    "S1200",
+    "S1400",
+    "S1500",
+    "S1630",
+    "S1640",
+    "S1780",
+    "S1820"
+  ]
+}

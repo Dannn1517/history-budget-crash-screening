@@ -1,0 +1,26 @@
+{
+  "borough_to_id": {
+    "Bronx": 0,
+    "Brooklyn": 1,
+    "Manhattan": 2,
+    "Queens": 3,
+    "Staten Island": 4
+  },
+  "id_to_borough": {
+    "0": "Bronx",
+    "1": "Brooklyn",
+    "2": "Manhattan",
+    "3": "Queens",
+    "4": "Staten Island"
+  },
+  "counts": {
+    "Bronx": 12902,
+    "Brooklyn": 20204,
+    "Manhattan": 7820,
+    "Queens": 34646,
+    "Staten Island": 11410
+  },
+  "n_nodes": 86982,
+  "source_graph_meta": "D:\\IDE\\PyCharm\\codes\\NYCTest\\NYC-build\\data\\derived\\exports\\line_graph\\graph_meta.json",
+  "generated_at": "2026-01-11T15:41:19.901552+00:00"
+}

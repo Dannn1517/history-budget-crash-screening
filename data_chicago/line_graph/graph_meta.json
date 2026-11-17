@@ -1,0 +1,36 @@
+{
+  "id_key": "id_geom_hash",
+  "node_order": "id_geom_hash ascending",
+  "deduplicate_edges": true,
+  "store_edge_weight": true,
+  "edge_weight_meaning": "number of shared (consolidated) endpoints producing the pair",
+  "crs": "EPSG:32616",
+  "intersection_merge_tolerance_m": 8,
+  "network_type": "drive (OSM/Overpass), simplify=True",
+  "date_window": [
+    "2021-01-01",
+    "2024-12-31"
+  ],
+  "node_count": 43335,
+  "edge_count": 116262,
+  "isolated_nodes": 55,
+  "isolated_ratio": 0.00126918195454021,
+  "region_scheme": "chicago_community_areas_77",
+  "weather_zone_scheme": {
+    "0": "ohare",
+    "1": "midway"
+  },
+  "source_snapshot_sha256": {
+    "links_utm16": "33690517ada758b27e07ccd636e123f3ffa84551d8ff622f7af4b39b33422b82",
+    "city_boundary": "cdc1316977f31bbec8851a00bc828c78380daeb83041a63d375bba9ff73a0491",
+    "centerlines": "f01dd86bee10d7475293db56afddac4279494e379f528dd2b0418415beaa6a4d"
+  },
+  "paths": {
+    "node_id_map.parquet": "line_graph/node_id_map.parquet",
+    "edge_index.npy": "line_graph/edge_index.npy",
+    "edge_weight.npy": "line_graph/edge_weight.npy",
+    "region_id.npy": "line_graph/region_id.npy",
+    "weather_zone_id.npy": "line_graph/weather_zone_id.npy"
+  },
+  "timestamp": "2026-09-11T22:02:03.126325+00:00"
+}

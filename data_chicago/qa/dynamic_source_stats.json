@@ -1,0 +1,118 @@
+{
+  "construction": {
+    "export_rows": 48491420,
+    "nonzero_roadday_rate": 0.24024176293330055,
+    "q_1d": [
+      0.0,
+      2.0,
+      4.0
+    ],
+    "q_7d": [
+      0.0,
+      11.0,
+      28.0
+    ]
+  },
+  "excavation": {
+    "export_rows": 36610120,
+    "nonzero_roadday_rate": 0.13943303554822997,
+    "q_1d": [
+      0.0,
+      2.0,
+      5.0
+    ],
+    "q_7d": [
+      0.0,
+      10.0,
+      35.0
+    ]
+  },
+  "311": {
+    "export_rows": 18347931,
+    "nonzero_roadday_rate": 0.009249083533116362,
+    "q_1d": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "q_7d": [
+      0.0,
+      1.0,
+      2.0
+    ]
+  },
+  "adt": {
+    "adt_raw_rows": 1123290,
+    "adt_dedup_dropped": 0,
+    "adt_valid_rows": 1123290,
+    "adt_actual_coverage": [
+      "2022-07-28",
+      "2024-12-31"
+    ],
+    "adt_coverage_note": "ADT \u5b9e\u9645\u89c2\u6d4b\u59cb\u4e8e 2022-07-28\uff08\u95e8\u6237\u63cf\u8ff0\u6807\u79f0 2020-10-07 \u8d77\uff0c\u4f46 2022-07 \u524d timestamp \u65e0\u6570\u636e\uff0ccount \u67e5\u8be2\u786e\u8ba4\u4e3a 0\uff09\uff1b\u6b64\u524d road-day \u5168\u90e8\u4e3a\u586b\u8865\u503c\uff0cmask=0",
+    "adt_segments": 2008,
+    "adt_segment_link_pairs": 7614,
+    "adt_links_with_segment": 4332,
+    "adt_link_coverage": 0.09996538594669435,
+    "adt_observed_link_days": 2330953,
+    "adt_observed_roaday_rate": 0.03681666958473481,
+    "adt_imputed_roaday_rate": 0.9631833304152652
+  },
+  "mobility": {
+    "mobility_files": 856,
+    "mobility_rows": 459235,
+    "mobility_null_ca_dropped": "see server-side agg (ca null rows skipped)",
+    "mobility_export_rows": 63312435,
+    "mobility_pickups_daily_mean": 196978.9128686327
+  },
+  "tracker": {
+    "tracker_rows": 1209285,
+    "tracker_segments": 1047,
+    "tracker_date_range": [
+      "2020-12-01",
+      "2024-12-31"
+    ]
+  },
+  "permits_qa": {
+    "permits_raw_rows": 580403,
+    "permits_issued_notnull": 580403,
+    "permits_coord_rate": 0.9264614414467189,
+    "permits_matched": 512950,
+    "permits_match_rate": 0.967328273065862,
+    "construction_export_rows": 48491420,
+    "construction_active_roaday_rate": 0.24024176293330055
+  },
+  "dig_qa": {
+    "dig_unique_tickets": 695377,
+    "dig_with_dates_coords": 690479,
+    "dig_matched": 659825,
+    "dig_match_rate": 0.9556047323669511,
+    "excavation_export_rows": 36610120
+  },
+  "sr311_qa": {
+    "sr311_raw_rows": 873666,
+    "sr311_duplicates_removed": 170010,
+    "sr311_filtered_rows": 702146,
+    "sr311_category_counts": {
+      "pothole": 205017,
+      "streetlight": 184832,
+      "sign": 94797,
+      "signal": 77483,
+      "streetcond": 53642,
+      "sidewalk": 49386,
+      "snowice": 36989
+    },
+    "sr311_matched": 666861,
+    "sr311_match_rate": 0.9497469187320016,
+    "sr311_matched_event_counts_by_cat": {
+      "pothole": 190051,
+      "signal": 73254,
+      "streetlight": 170446,
+      "streetcond": 50701,
+      "sign": 89269,
+      "sidewalk": 46647,
+      "snowice": 34248
+    },
+    "sr311_export_rows": 18347931
+  }
+}

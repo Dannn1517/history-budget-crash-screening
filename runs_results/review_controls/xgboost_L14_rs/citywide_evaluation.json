@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "evaluation_scope": "unconstrained_citywide_same_day",
+  "source_summary": "./runs_results/review_controls/xgboost_L14_rs/xgboost_summary_10082303.json",
+  "source_checkpoint": "./runs_results/review_controls/xgboost_L14_rs/xgboost_models.joblib",
+  "source_selected_epoch": null,
+  "source_selection_scope": "borough_stratified",
+  "model": "xgboost",
+  "graph_supervision": "target_mse",
+  "git_commit_at_evaluation": "3a6329b2e6f6bf6f2c7dbe94e4f44a32933d9b8b",
+  "val_metrics": {
+    "es_recall": 0.5113066253631203,
+    "es_ndcg": 0.2729545693196312,
+    "es_recall_at_5": 0.22878790913454927,
+    "es_recall_at_10": 0.3431521951605679,
+    "es_recall_at_20": 0.5113066253631203,
+    "es_ndcg_at_5": 0.14542730692317854,
+    "es_ndcg_at_10": 0.19938787455219717,
+    "es_ndcg_at_20": 0.2729545693196312
+  },
+  "test_metrics": {
+    "es_recall": 0.508416796505135,
+    "es_ndcg": 0.26915213838683943,
+    "es_recall_at_5": 0.22933762931129675,
+    "es_recall_at_10": 0.3419491016320369,
+    "es_recall_at_20": 0.508416796505135,
+    "es_ndcg_at_5": 0.14419184357272583,
+    "es_ndcg_at_10": 0.1968722471390171,
+    "es_ndcg_at_20": 0.26915213838683943
+  },
+  "test_delta_citywide_minus_stratified": {
+    "es_recall_at_5": 0.010584325318260618,
+    "es_recall_at_10": 0.019901674233044786,
+    "es_recall_at_20": 0.03845924885735397,
+    "es_ndcg_at_5": 0.024337783889401915,
+    "es_ndcg_at_10": 0.040035793257725355,
+    "es_ndcg_at_20": 0.06442377831845533
+  }
+}

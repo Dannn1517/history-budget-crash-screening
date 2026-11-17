@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "question": "How much of the short-history ranker behaviour and margin is determined by zero-score ties and the tie-breaking convention?",
+  "protocol": {
+    "date_range": [
+      "2021-01-01",
+      "2024-12-31"
+    ],
+    "boroughs": [
+      "Bronx",
+      "Brooklyn",
+      "Manhattan",
+      "Queens",
+      "Staten Island"
+    ],
+    "history_len": 14,
+    "horizon": 3,
+    "budgets": [
+      14,
+      30,
+      90,
+      180,
+      365,
+      0
+    ],
+    "share": 0.2,
+    "test_windows": 242,
+    "random_repeats": 20,
+    "seed": 42,
+    "run": 1,
+    "static_prior": "logistic C=0.01 on 200k sampled train rows, horizon-0 score",
+    "git_commit_at_start": "9921a744c9abfb77fac677295f04b4f74e93ff0a",
+    "git_dirty_at_start": true,
+    "git_tracked_dirty_at_start": true,
+    "git_tracked_dirty_files_at_start": ["[internal worktree file list omitted for the public release]"],
+    "git_untracked_count_at_start": 126
+  },
+  "by_budget": {
+    "14": {
+      "rules": {
+        "stratified": {
+          "recall_at_20_deterministic": 0.32375073414252153,
+          "recall_at_20_random_mean": 0.3098980765465936,
+          "recall_at_20_random_std": 0.00190897911719483,
+          "recall_at_20_static_prior": 0.4751370399373532
+        },
+        "citywide": {
+          "recall_at_20_deterministic": 0.4186264193422083,
+          "recall_at_20_random_mean": 0.31403007537196553,
+          "recall_at_20_random_std": 0.0022151301129773905,
+          "recall_at_20_static_prior": 0.5136244616288176
+        }
+      },
+      "zero_fraction_mean": 0.9669318873041273,
+      "tie_determined_citywide_mean": 0.8346651389025466,
+      "tie_determined_stratified_mean": 0.8168642025902552
+    },
+    "30": {
+      "rules": {
+        "stratified": {
+          "recall_at_20_deterministic": 0.3933841523101018,
+          "recall_at_20_random_mean": 0.3880493833202819,
+          "recall_at_20_random_std": 0.001893580603753657,
+          "recall_at_20_static_prior": 0.5051267619420516
+        },
+        "citywide": {
+          "recall_at_20_deterministic": 0.47776159945184027,
+          "recall_at_20_random_mean": 0.3955911682654659,
+          "recall_at_20_random_std": 0.0017011687012067397,
+          "recall_at_20_static_prior": 0.5401453602192638
+        }
+      },
+      "zero_fraction_mean": 0.935249736290077,
+      "tie_determined_citywide_mean": 0.676259847214087,
+      "tie_determined_stratified_mean": 0.6427831274981828
+    },
+    "90": {
+      "rules": {
+        "stratified": {
+          "recall_at_20_deterministic": 0.5238657498042286,
+          "recall_at_20_random_mean": 0.5238599378425998,
+          "recall_at_20_random_std": 0.0006699759148716574,
+          "recall_at_20_static_prior": 0.5633136746280345
+        },
+        "citywide": {
+          "recall_at_20_deterministic": 0.5807006166797181,
+          "recall_at_20_random_mean": 0.5553338513116679,
+          "recall_at_20_random_std": 0.0008083620238656318,
+          "recall_at_20_static_prior": 0.5976531910728269
+        }
+      },
+      "zero_fraction_mean": 0.8473264916024232,
+      "tie_determined_citywide_mean": 0.23665878557003986,
+      "tie_determined_stratified_mean": 0.4864164782550689
+    },
+    "180": {
+      "rules": {
+        "stratified": {
+          "recall_at_20_deterministic": 0.5839002545027407,
+          "recall_at_20_random_mean": 0.5835625489428348,
+          "recall_at_20_random_std": 0.0008492229504115107,
+          "recall_at_20_static_prior": 0.6007549432263116
+        },
+        "citywide": {
+          "recall_at_20_deterministic": 0.6301084083790133,
+          "recall_at_20_random_mean": 0.6199922303249804,
+          "recall_at_20_random_std": 0.0009738580318473729,
+          "recall_at_20_static_prior": 0.6447545516836335
+        }
+      },
+      "zero_fraction_mean": 0.7600948025534303,
+      "tie_determined_citywide_mean": 0.5011429727838513,
+      "tie_determined_stratified_mean": 0.32258743100609655
+    },
+    "365": {
+      "rules": {
+        "stratified": {
+          "recall_at_20_deterministic": 0.6191268598277212,
+          "recall_at_20_random_mean": 0.6208334352975724,
+          "recall_at_20_random_std": 0.0006572441748972322,
+          "recall_at_20_static_prior": 0.629992169146437
+        },
+        "citywide": {
+          "recall_at_20_deterministic": 0.6644968676585747,
+          "recall_at_20_random_mean": 0.6609665598081441,
+          "recall_at_20_random_std": 0.00037622762270643923,
+          "recall_at_20_static_prior": 0.6669562451057165
+        }
+      },
+      "zero_fraction_mean": 0.6480162324835518,
+      "tie_determined_citywide_mean": 0.046717231098550756,
+      "tie_determined_stratified_mean": 0.2614062774338876
+    },
+    "0": {
+      "rules": {
+        "stratified": {
+          "recall_at_20_deterministic": 0.6507378132341425,
+          "recall_at_20_random_mean": 0.6509953749021145,
+          "recall_at_20_random_std": 0.00028119651549827866,
+          "recall_at_20_static_prior": 0.6529708300704777
+        },
+        "citywide": {
+          "recall_at_20_deterministic": 0.6918803837118246,
+          "recall_at_20_random_mean": 0.6914585576546595,
+          "recall_at_20_random_std": 0.00033101627086386015,
+          "recall_at_20_static_prior": 0.6922902799530148
+        }
+      },
+      "zero_fraction_mean": 0.42511008737249906,
+      "tie_determined_citywide_mean": 0.06746389730916844,
+      "tie_determined_stratified_mean": 0.10671965546024016
+    }
+  },
+  "wall_seconds": 367.02739716801443
+}

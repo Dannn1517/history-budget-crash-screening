@@ -1,0 +1,17 @@
+{
+  "id_date_timezone": "America/New_York",
+  "start_date": "2021-01-01",
+  "end_date": "2025-12-15",
+  "dow_convention": "0=Sun,1=Mon,...,6=Sat",
+  "weekend_days": [
+    0,
+    6
+  ],
+  "holiday_scope": "US_federal",
+  "holiday_country": "US",
+  "holiday_state": null,
+  "holiday_subdiv": null,
+  "days_in_year_mode": "dynamic",
+  "n_days": 1810,
+  "generated_at": "2026-01-05T15:14:13.111356+00:00"
+}

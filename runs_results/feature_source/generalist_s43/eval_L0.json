@@ -1,0 +1,20 @@
+{
+  "checkpoint": "runs_results/feature_source/generalist_s43/st_event_occurrence_weighted_bce_best.pt",
+  "selected_epoch": 6,
+  "lookback": 0,
+  "seen_in_training": true,
+  "mask_borough": "all",
+  "split": "test",
+  "test_metrics": {
+    "es_recall": 0.6514043879202702,
+    "es_ndcg": 0.3025739880480733,
+    "es_recall_at_5": 0.34256302626651775,
+    "es_recall_at_10": 0.4777126020217715,
+    "es_recall_at_20": 0.6514043879202702,
+    "es_ndcg_at_5": 0.1983858380341924,
+    "es_ndcg_at_10": 0.2463263942144436,
+    "es_ndcg_at_20": 0.3025739880480733,
+    "event_bce": 0.05963286884817622,
+    "event_brier": 0.008612157566192125
+  }
+}

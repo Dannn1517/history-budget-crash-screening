@@ -1,0 +1,27 @@
+{
+  "raw_rows": 439991,
+  "duplicate_crash_record_id": 0,
+  "after_date_window": 439991,
+  "dropped_invalid_coordinate": 5006,
+  "dropped_private_property": 17323,
+  "dropped_outside_boundary": 262,
+  "kept_for_matching": 417400,
+  "dropped_no_link_75m": 14148,
+  "match_rate": {
+    "<= 25m": 0.9511883085769046,
+    "<= 50m": 0.9594274077623383,
+    "<= 75m": 0.9661044561571633
+  },
+  "match_rate_vs_kept_75m": 0.9661044561571633,
+  "events_total": 403252,
+  "label_road_days": 394400,
+  "consistency_check": "PASS (labels sums == events sums)",
+  "snap_dist_median_m": 10.99940013885498,
+  "snap_dist_p95_m": 13.377007484436035,
+  "by_year": {
+    "2021": 99548,
+    "2022": 99123,
+    "2023": 101677,
+    "2024": 102904
+  }
+}

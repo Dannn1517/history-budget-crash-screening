@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "question": "Under operationally tight screening shares (1-5% of segments), what are the absolute Recall values of the budget-matched frequency baseline and the mixed-budget model, and how large is the difference?",
+  "source": "analysis_results/small_share_spectrum_nyc_test_stratified.json",
+  "scope": "New York, stratified allocation, test split, per-day top-k pooled",
+  "rows": [
+    {
+      "L": 14,
+      "share_pct": 1,
+      "baseline_recall": 0.0679,
+      "model_recall": 0.1113,
+      "delta": 0.0434
+    },
+    {
+      "L": 14,
+      "share_pct": 5,
+      "baseline_recall": 0.1739,
+      "model_recall": 0.272,
+      "delta": 0.0981
+    },
+    {
+      "L": 90,
+      "share_pct": 1,
+      "baseline_recall": 0.1174,
+      "model_recall": 0.1285,
+      "delta": 0.0111
+    },
+    {
+      "L": 90,
+      "share_pct": 5,
+      "baseline_recall": 0.2758,
+      "model_recall": 0.3111,
+      "delta": 0.0353
+    },
+    {
+      "L": 0,
+      "share_pct": 1,
+      "baseline_recall": 0.1414,
+      "model_recall": 0.1368,
+      "delta": -0.0046
+    },
+    {
+      "L": 0,
+      "share_pct": 5,
+      "baseline_recall": 0.3453,
+      "model_recall": 0.3387,
+      "delta": -0.0066
+    }
+  ]
+}

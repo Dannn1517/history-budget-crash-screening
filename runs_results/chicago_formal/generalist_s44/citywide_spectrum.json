@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-13",
+  "scope": "citywide",
+  "split": "test",
+  "hr_ratio": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "hr_ratio_override": false,
+  "data_dir": "data_chicago",
+  "harsf_checkpoint": "runs_results/chicago_formal/safe_fallback_fixed_switch/st_rghs_best.pt",
+  "generalist_checkpoint": "runs_results/chicago_formal/generalist_s44/st_event_occurrence_weighted_bce_best.pt",
+  "borough_sizes": [
+    10233,
+    10932,
+    11042,
+    6237,
+    4891
+  ],
+  "by_budget": {
+    "14": {
+      "ranker": {
+        "es_recall": 0.3181,
+        "es_ndcg": 0.2104,
+        "es_recall_at_5": 0.1677,
+        "es_recall_at_10": 0.2653,
+        "es_recall_at_20": 0.3181,
+        "es_ndcg_at_5": 0.1315,
+        "es_ndcg_at_10": 0.1842,
+        "es_ndcg_at_20": 0.2104
+      },
+      "generalist": {
+        "es_recall": 0.5979,
+        "es_ndcg": 0.3745,
+        "es_recall_at_5": 0.2704,
+        "es_recall_at_10": 0.4126,
+        "es_recall_at_20": 0.5979,
+        "es_ndcg_at_5": 0.2062,
+        "es_ndcg_at_10": 0.2828,
+        "es_ndcg_at_20": 0.3745
+      },
+      "harsf": {
+        "es_recall": 0.595,
+        "es_ndcg": 0.3726,
+        "es_recall_at_5": 0.2685,
+        "es_recall_at_10": 0.4118,
+        "es_recall_at_20": 0.595,
+        "es_ndcg_at_5": 0.2049,
+        "es_ndcg_at_10": 0.2819,
+        "es_ndcg_at_20": 0.3726
+      },
+      "margin_generalist_minus_ranker_R20": 0.2798,
+      "margin_harsf_minus_ranker_R20": 0.2769
+    },
+    "90": {
+      "ranker": {
+        "es_recall": 0.5312,
+        "es_ndcg": 0.3445,
+        "es_recall_at_5": 0.2654,
+        "es_recall_at_10": 0.3852,
+        "es_recall_at_20": 0.5312,
+        "es_ndcg_at_5": 0.2077,
+        "es_ndcg_at_10": 0.2719,
+        "es_ndcg_at_20": 0.3445
+      },
+      "generalist": {
+        "es_recall": 0.6128,
+        "es_ndcg": 0.3903,
+        "es_recall_at_5": 0.2915,
+        "es_recall_at_10": 0.4334,
+        "es_recall_at_20": 0.6128,
+        "es_ndcg_at_5": 0.2252,
+        "es_ndcg_at_10": 0.3016,
+        "es_ndcg_at_20": 0.3903
+      },
+      "harsf": {
+        "es_recall": 0.6124,
+        "es_ndcg": 0.3897,
+        "es_recall_at_5": 0.2922,
+        "es_recall_at_10": 0.4343,
+        "es_recall_at_20": 0.6124,
+        "es_ndcg_at_5": 0.2252,
+        "es_ndcg_at_10": 0.3016,
+        "es_ndcg_at_20": 0.3897
+      },
+      "margin_generalist_minus_ranker_R20": 0.0816,
+      "margin_harsf_minus_ranker_R20": 0.0812
+    },
+    "0": {
+      "ranker": {
+        "es_recall": 0.6374,
+        "es_ndcg": 0.4085,
+        "es_recall_at_5": 0.3121,
+        "es_recall_at_10": 0.4581,
+        "es_recall_at_20": 0.6374,
+        "es_ndcg_at_5": 0.2411,
+        "es_ndcg_at_10": 0.3197,
+        "es_ndcg_at_20": 0.4085
+      },
+      "generalist": {
+        "es_recall": 0.6359,
+        "es_ndcg": 0.4068,
+        "es_recall_at_5": 0.3103,
+        "es_recall_at_10": 0.4549,
+        "es_recall_at_20": 0.6359,
+        "es_ndcg_at_5": 0.2395,
+        "es_ndcg_at_10": 0.3172,
+        "es_ndcg_at_20": 0.4068
+      },
+      "harsf": {
+        "es_recall": 0.6374,
+        "es_ndcg": 0.4085,
+        "es_recall_at_5": 0.3121,
+        "es_recall_at_10": 0.4581,
+        "es_recall_at_20": 0.6374,
+        "es_ndcg_at_5": 0.2411,
+        "es_ndcg_at_10": 0.3197,
+        "es_ndcg_at_20": 0.4085
+      },
+      "margin_generalist_minus_ranker_R20": -0.0015,
+      "margin_harsf_minus_ranker_R20": 0.0
+    }
+  }
+}

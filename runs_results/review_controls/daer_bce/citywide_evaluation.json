@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "evaluation_scope": "unconstrained_citywide_same_day",
+  "source_summary": "./runs_results/review_controls/daer_bce/st_daer_hurdle_lognormal_summary_09041632.json",
+  "source_checkpoint": "./runs_results/review_controls/daer_bce/st_daer_hurdle_lognormal_weighted_bce_best.pt",
+  "source_selected_epoch": 2,
+  "source_selection_scope": "borough_stratified",
+  "model": "st_daer_hurdle_lognormal",
+  "graph_supervision": "target_mse",
+  "git_commit_at_evaluation": "156e85f4f46524ca252dd4a732bc1a71e2122d33",
+  "val_metrics": {
+    "es_recall": 0.7253979410396986,
+    "es_ndcg": 0.4109878167398528,
+    "es_recall_at_5": 0.39021713048533496,
+    "es_recall_at_10": 0.5465409031166256,
+    "es_recall_at_20": 0.7253979410396986,
+    "es_ndcg_at_5": 0.25874191069933516,
+    "es_ndcg_at_10": 0.33265676265551475,
+    "es_ndcg_at_20": 0.4109878167398528,
+    "event_bce": 0.06323356146474464,
+    "event_brier": 0.008508268725945276
+  },
+  "test_metrics": {
+    "es_recall": 0.6866005410239069,
+    "es_ndcg": 0.3856977081401855,
+    "es_recall_at_5": 0.3637551758205248,
+    "es_recall_at_10": 0.5126883742043341,
+    "es_recall_at_20": 0.6866005410239069,
+    "es_ndcg_at_5": 0.2404736377148543,
+    "es_ndcg_at_10": 0.3101277277756429,
+    "es_ndcg_at_20": 0.3856977081401855,
+    "event_bce": 0.0662464529400612,
+    "event_brier": 0.009104275841442699
+  },
+  "test_delta_citywide_minus_stratified": {
+    "es_recall_at_5": 0.023688204784371836,
+    "es_recall_at_10": 0.03410086488949232,
+    "es_recall_at_20": 0.03724559262395977,
+    "es_ndcg_at_5": 0.043014982979020316,
+    "es_ndcg_at_10": 0.06325652732479978,
+    "es_ndcg_at_20": 0.083895285474755
+  }
+}

@@ -1,0 +1,757 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-09-12",
+  "decision": "FREEZE (rescaled data): the single-standardization static-feature contract is the formal data state; all rows below come from the *_rs rerun wave.",
+  "headline_spectrum": [
+    {
+      "L": 14,
+      "seen_in_training": true,
+      "source": "shared_stats_formal_rs",
+      "ranker_R20": 0.3238,
+      "ranker_N20": 0.156,
+      "generalist_R20": 0.5411,
+      "generalist_N20": 0.2535,
+      "margin_R20": 0.2173,
+      "margin_N20": 0.0975,
+      "harsf_R20": 0.5421,
+      "harsf_N20": 0.2538
+    },
+    {
+      "L": 21,
+      "seen_in_training": false,
+      "source": "shared_stats_ckpt_unseen_eval_rs",
+      "ranker_R20": 0.356,
+      "ranker_N20": 0.1741,
+      "generalist_R20": 0.5495,
+      "generalist_N20": 0.2581,
+      "margin_R20": 0.1935,
+      "margin_N20": 0.084,
+      "harsf_R20": 0.5501,
+      "harsf_N20": 0.2585,
+      "harsf_gate_mean": 0.0
+    },
+    {
+      "L": 30,
+      "seen_in_training": true,
+      "source": "shared_stats_formal_rs",
+      "ranker_R20": 0.3934,
+      "ranker_N20": 0.1931,
+      "generalist_R20": 0.5572,
+      "generalist_N20": 0.2624,
+      "margin_R20": 0.1638,
+      "margin_N20": 0.0693,
+      "harsf_R20": 0.5588,
+      "harsf_N20": 0.2632
+    },
+    {
+      "L": 60,
+      "seen_in_training": false,
+      "source": "shared_stats_ckpt_unseen_eval_rs",
+      "ranker_R20": 0.4815,
+      "ranker_N20": 0.233,
+      "generalist_R20": 0.5762,
+      "generalist_N20": 0.2724,
+      "margin_R20": 0.0947,
+      "margin_N20": 0.0394,
+      "harsf_R20": 0.5799,
+      "harsf_N20": 0.2738,
+      "harsf_gate_mean": 0.0
+    },
+    {
+      "L": 90,
+      "seen_in_training": true,
+      "source": "shared_stats_formal_rs",
+      "ranker_R20": 0.5239,
+      "ranker_N20": 0.252,
+      "generalist_R20": 0.5886,
+      "generalist_N20": 0.2783,
+      "margin_R20": 0.0647,
+      "margin_N20": 0.0263,
+      "harsf_R20": 0.593,
+      "harsf_N20": 0.2797
+    },
+    {
+      "L": 120,
+      "seen_in_training": false,
+      "source": "shared_stats_ckpt_unseen_eval_rs",
+      "ranker_R20": 0.5519,
+      "ranker_N20": 0.2639,
+      "generalist_R20": 0.5992,
+      "generalist_N20": 0.2832,
+      "margin_R20": 0.0473,
+      "margin_N20": 0.0193,
+      "harsf_R20": 0.6029,
+      "harsf_N20": 0.2833,
+      "harsf_gate_mean": 6.989007290458337e-25
+    },
+    {
+      "L": 180,
+      "seen_in_training": true,
+      "source": "shared_stats_formal_rs",
+      "ranker_R20": 0.5839,
+      "ranker_N20": 0.277,
+      "generalist_R20": 0.6113,
+      "generalist_N20": 0.2876,
+      "margin_R20": 0.0274,
+      "margin_N20": 0.0106,
+      "harsf_R20": 0.6124,
+      "harsf_N20": 0.2875
+    },
+    {
+      "L": 365,
+      "seen_in_training": false,
+      "source": "shared_stats_ckpt_unseen_eval_rs",
+      "ranker_R20": 0.6191,
+      "ranker_N20": 0.2941,
+      "generalist_R20": 0.6302,
+      "generalist_N20": 0.295,
+      "margin_R20": 0.0111,
+      "margin_N20": 0.0009,
+      "harsf_R20": 0.6348,
+      "harsf_N20": 0.3006,
+      "harsf_gate_mean": 0.5
+    },
+    {
+      "L": 0,
+      "seen_in_training": true,
+      "source": "shared_stats_formal_rs",
+      "ranker_R20": 0.6507,
+      "ranker_N20": 0.3051,
+      "generalist_R20": 0.6448,
+      "generalist_N20": 0.2992,
+      "margin_R20": -0.0059,
+      "margin_N20": -0.0059,
+      "harsf_R20": 0.6507,
+      "harsf_N20": 0.3051
+    }
+  ],
+  "headline_spectrum_six": [
+    {
+      "L": 14,
+      "seen_in_training": true,
+      "ranker": {
+        "R5": 0.1739,
+        "R10": 0.2234,
+        "R20": 0.3238,
+        "N5": 0.1054,
+        "N10": 0.1244,
+        "N20": 0.156
+      },
+      "generalist": {
+        "R5": 0.272,
+        "R10": 0.386,
+        "R20": 0.5411,
+        "N5": 0.1619,
+        "N10": 0.2032,
+        "N20": 0.2535
+      },
+      "harsf": {
+        "R5": 0.2744,
+        "R10": 0.3886,
+        "R20": 0.5421,
+        "N5": 0.1629,
+        "N10": 0.2036,
+        "N20": 0.2538
+      },
+      "margin_R": {
+        "at_5": 0.0981,
+        "at_10": 0.1626,
+        "at_20": 0.2173
+      },
+      "margin_ci95_R": {
+        "at_5": [
+          0.0944,
+          0.1014
+        ],
+        "at_10": [
+          0.1579,
+          0.167
+        ],
+        "at_20": [
+          0.212,
+          0.2227
+        ]
+      },
+      "harsf_vs_gen_ci95_R": {
+        "at_5": [
+          0.0011,
+          0.0037
+        ],
+        "at_10": [
+          0.0006,
+          0.0047
+        ],
+        "at_20": [
+          -0.001,
+          0.0029
+        ]
+      },
+      "harsf_vs_ranker_ci95_R": {
+        "at_5": [
+          0.0972,
+          0.1036
+        ],
+        "at_10": [
+          0.1608,
+          0.1693
+        ],
+        "at_20": [
+          0.213,
+          0.2232
+        ]
+      }
+    },
+    {
+      "L": 21,
+      "seen_in_training": false,
+      "ranker": {
+        "R5": 0.1965,
+        "R10": 0.2665,
+        "R20": 0.356,
+        "N5": 0.1197,
+        "N10": 0.1458,
+        "N20": 0.1741
+      },
+      "generalist": {
+        "R5": 0.2811,
+        "R10": 0.3955,
+        "R20": 0.5495,
+        "N5": 0.167,
+        "N10": 0.2083,
+        "N20": 0.2581
+      },
+      "harsf": {
+        "R5": 0.2824,
+        "R10": 0.3959,
+        "R20": 0.5501,
+        "N5": 0.1677,
+        "N10": 0.208,
+        "N20": 0.2585
+      },
+      "margin_R": {
+        "at_5": 0.0846,
+        "at_10": 0.129,
+        "at_20": 0.1935
+      }
+    },
+    {
+      "L": 30,
+      "seen_in_training": true,
+      "ranker": {
+        "R5": 0.2204,
+        "R10": 0.3057,
+        "R20": 0.3934,
+        "N5": 0.1337,
+        "N10": 0.1645,
+        "N20": 0.1931
+      },
+      "generalist": {
+        "R5": 0.2887,
+        "R10": 0.4033,
+        "R20": 0.5572,
+        "N5": 0.1712,
+        "N10": 0.2125,
+        "N20": 0.2624
+      },
+      "harsf": {
+        "R5": 0.2905,
+        "R10": 0.404,
+        "R20": 0.5588,
+        "N5": 0.1722,
+        "N10": 0.2128,
+        "N20": 0.2632
+      },
+      "margin_R": {
+        "at_5": 0.0683,
+        "at_10": 0.0976,
+        "at_20": 0.1638
+      },
+      "margin_ci95_R": {
+        "at_5": [
+          0.0654,
+          0.0712
+        ],
+        "at_10": [
+          0.0938,
+          0.1016
+        ],
+        "at_20": [
+          0.1588,
+          0.1691
+        ]
+      },
+      "harsf_vs_gen_ci95_R": {
+        "at_5": [
+          0.0006,
+          0.0032
+        ],
+        "at_10": [
+          -0.001,
+          0.0024
+        ],
+        "at_20": [
+          -0.0002,
+          0.0035
+        ]
+      },
+      "harsf_vs_ranker_ci95_R": {
+        "at_5": [
+          0.0673,
+          0.0731
+        ],
+        "at_10": [
+          0.0948,
+          0.1021
+        ],
+        "at_20": [
+          0.1607,
+          0.17
+        ]
+      }
+    },
+    {
+      "L": 60,
+      "seen_in_training": false,
+      "ranker": {
+        "R5": 0.2542,
+        "R10": 0.3634,
+        "R20": 0.4815,
+        "N5": 0.1572,
+        "N10": 0.195,
+        "N20": 0.233
+      },
+      "generalist": {
+        "R5": 0.3023,
+        "R10": 0.421,
+        "R20": 0.5762,
+        "N5": 0.1798,
+        "N10": 0.2221,
+        "N20": 0.2724
+      },
+      "harsf": {
+        "R5": 0.305,
+        "R10": 0.424,
+        "R20": 0.5799,
+        "N5": 0.1807,
+        "N10": 0.2232,
+        "N20": 0.2738
+      },
+      "margin_R": {
+        "at_5": 0.0481,
+        "at_10": 0.0576,
+        "at_20": 0.0947
+      }
+    },
+    {
+      "L": 90,
+      "seen_in_training": true,
+      "ranker": {
+        "R5": 0.2758,
+        "R10": 0.3902,
+        "R20": 0.5239,
+        "N5": 0.1696,
+        "N10": 0.2096,
+        "N20": 0.252
+      },
+      "generalist": {
+        "R5": 0.3111,
+        "R10": 0.4326,
+        "R20": 0.5886,
+        "N5": 0.1843,
+        "N10": 0.2277,
+        "N20": 0.2783
+      },
+      "harsf": {
+        "R5": 0.3138,
+        "R10": 0.4351,
+        "R20": 0.593,
+        "N5": 0.1852,
+        "N10": 0.2284,
+        "N20": 0.2797
+      },
+      "margin_R": {
+        "at_5": 0.0353,
+        "at_10": 0.0424,
+        "at_20": 0.0647
+      },
+      "margin_ci95_R": {
+        "at_5": [
+          0.0325,
+          0.038
+        ],
+        "at_10": [
+          0.0393,
+          0.0454
+        ],
+        "at_20": [
+          0.0614,
+          0.0681
+        ]
+      },
+      "harsf_vs_gen_ci95_R": {
+        "at_5": [
+          0.0013,
+          0.0041
+        ],
+        "at_10": [
+          0.001,
+          0.004
+        ],
+        "at_20": [
+          0.0027,
+          0.0062
+        ]
+      },
+      "harsf_vs_ranker_ci95_R": {
+        "at_5": [
+          0.0349,
+          0.0408
+        ],
+        "at_10": [
+          0.0417,
+          0.0478
+        ],
+        "at_20": [
+          0.0659,
+          0.0722
+        ]
+      }
+    },
+    {
+      "L": 120,
+      "seen_in_training": false,
+      "ranker": {
+        "R5": 0.2901,
+        "R10": 0.4064,
+        "R20": 0.5519,
+        "N5": 0.176,
+        "N10": 0.2179,
+        "N20": 0.2639
+      },
+      "generalist": {
+        "R5": 0.3165,
+        "R10": 0.4414,
+        "R20": 0.5992,
+        "N5": 0.1876,
+        "N10": 0.232,
+        "N20": 0.2832
+      },
+      "harsf": {
+        "R5": 0.3181,
+        "R10": 0.4427,
+        "R20": 0.6029,
+        "N5": 0.1871,
+        "N10": 0.2312,
+        "N20": 0.2833
+      },
+      "margin_R": {
+        "at_5": 0.0264,
+        "at_10": 0.035,
+        "at_20": 0.0473
+      }
+    },
+    {
+      "L": 180,
+      "seen_in_training": true,
+      "ranker": {
+        "R5": 0.3059,
+        "R10": 0.4264,
+        "R20": 0.5839,
+        "N5": 0.1844,
+        "N10": 0.227,
+        "N20": 0.277
+      },
+      "generalist": {
+        "R5": 0.3234,
+        "R10": 0.4496,
+        "R20": 0.6113,
+        "N5": 0.1903,
+        "N10": 0.2353,
+        "N20": 0.2876
+      },
+      "harsf": {
+        "R5": 0.3243,
+        "R10": 0.4516,
+        "R20": 0.6124,
+        "N5": 0.1902,
+        "N10": 0.2354,
+        "N20": 0.2875
+      },
+      "margin_R": {
+        "at_5": 0.0175,
+        "at_10": 0.0232,
+        "at_20": 0.0274
+      },
+      "margin_ci95_R": {
+        "at_5": [
+          0.0151,
+          0.0198
+        ],
+        "at_10": [
+          0.0204,
+          0.0259
+        ],
+        "at_20": [
+          0.0251,
+          0.0298
+        ]
+      },
+      "harsf_vs_gen_ci95_R": {
+        "at_5": [
+          -0.0006,
+          0.0024
+        ],
+        "at_10": [
+          0.0007,
+          0.0035
+        ],
+        "at_20": [
+          -0.0005,
+          0.0028
+        ]
+      },
+      "harsf_vs_ranker_ci95_R": {
+        "at_5": [
+          0.0157,
+          0.0209
+        ],
+        "at_10": [
+          0.0227,
+          0.0277
+        ],
+        "at_20": [
+          0.0257,
+          0.0312
+        ]
+      }
+    },
+    {
+      "L": 365,
+      "seen_in_training": false,
+      "ranker": {
+        "R5": 0.3282,
+        "R10": 0.4583,
+        "R20": 0.6191,
+        "N5": 0.1961,
+        "N10": 0.242,
+        "N20": 0.2941
+      },
+      "generalist": {
+        "R5": 0.3335,
+        "R10": 0.4649,
+        "R20": 0.6302,
+        "N5": 0.1949,
+        "N10": 0.2419,
+        "N20": 0.295
+      },
+      "harsf": {
+        "R5": 0.3382,
+        "R10": 0.4718,
+        "R20": 0.6348,
+        "N5": 0.2006,
+        "N10": 0.2481,
+        "N20": 0.3006
+      },
+      "margin_R": {
+        "at_5": 0.0053,
+        "at_10": 0.0066,
+        "at_20": 0.0111
+      }
+    },
+    {
+      "L": 0,
+      "seen_in_training": true,
+      "ranker": {
+        "R5": 0.3453,
+        "R10": 0.4808,
+        "R20": 0.6507,
+        "N5": 0.2026,
+        "N10": 0.2509,
+        "N20": 0.3051
+      },
+      "generalist": {
+        "R5": 0.3387,
+        "R10": 0.4726,
+        "R20": 0.6448,
+        "N5": 0.1959,
+        "N10": 0.2436,
+        "N20": 0.2992
+      },
+      "harsf": {
+        "R5": 0.3453,
+        "R10": 0.4808,
+        "R20": 0.6507,
+        "N5": 0.2026,
+        "N10": 0.2509,
+        "N20": 0.3051
+      },
+      "margin_R": {
+        "at_5": -0.0066,
+        "at_10": -0.0082,
+        "at_20": -0.0059
+      },
+      "margin_ci95_R": {
+        "at_5": [
+          -0.0086,
+          -0.0047
+        ],
+        "at_10": [
+          -0.0108,
+          -0.0058
+        ],
+        "at_20": [
+          -0.0095,
+          -0.0022
+        ]
+      },
+      "harsf_vs_gen_ci95_R": {
+        "at_5": [
+          0.0047,
+          0.0086
+        ],
+        "at_10": [
+          0.0058,
+          0.0108
+        ],
+        "at_20": [
+          0.0022,
+          0.0095
+        ]
+      },
+      "harsf_vs_ranker_ci95_R": {
+        "at_5": [
+          0.0,
+          0.0
+        ],
+        "at_10": [
+          0.0,
+          0.0
+        ],
+        "at_20": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "shared_stats_full_six": {
+    "14": {
+      "es_recall_at_5": 0.272,
+      "es_recall_at_10": 0.386,
+      "es_recall_at_20": 0.5411,
+      "es_ndcg_at_5": 0.1619,
+      "es_ndcg_at_10": 0.2032,
+      "es_ndcg_at_20": 0.2535
+    },
+    "30": {
+      "es_recall_at_5": 0.2887,
+      "es_recall_at_10": 0.4033,
+      "es_recall_at_20": 0.5572,
+      "es_ndcg_at_5": 0.1712,
+      "es_ndcg_at_10": 0.2125,
+      "es_ndcg_at_20": 0.2624
+    },
+    "90": {
+      "es_recall_at_5": 0.3111,
+      "es_recall_at_10": 0.4326,
+      "es_recall_at_20": 0.5886,
+      "es_ndcg_at_5": 0.1843,
+      "es_ndcg_at_10": 0.2277,
+      "es_ndcg_at_20": 0.2783
+    },
+    "180": {
+      "es_recall_at_5": 0.3234,
+      "es_recall_at_10": 0.4496,
+      "es_recall_at_20": 0.6113,
+      "es_ndcg_at_5": 0.1903,
+      "es_ndcg_at_10": 0.2353,
+      "es_ndcg_at_20": 0.2876
+    },
+    "0": {
+      "es_recall_at_5": 0.3387,
+      "es_recall_at_10": 0.4726,
+      "es_recall_at_20": 0.6448,
+      "es_ndcg_at_5": 0.1959,
+      "es_ndcg_at_10": 0.2436,
+      "es_ndcg_at_20": 0.2992
+    }
+  },
+  "robustness_own_stats_R20_N20": {
+    "14": [
+      0.5221,
+      0.2455
+    ],
+    "30": [
+      0.5417,
+      0.2572
+    ],
+    "90": [
+      0.584,
+      0.2782
+    ],
+    "180": [
+      0.6106,
+      0.2885
+    ],
+    "0": [
+      0.6469,
+      0.3003
+    ]
+  },
+  "robustness_own_stats_note": "Pre-rescale values; not cited in the paper.",
+  "method_harsf_fixed_switch": {
+    "14": [
+      0.5421,
+      0.2538
+    ],
+    "30": [
+      0.5588,
+      0.2632
+    ],
+    "90": [
+      0.593,
+      0.2797
+    ],
+    "180": [
+      0.6124,
+      0.2875
+    ],
+    "0": [
+      0.6507,
+      0.3051
+    ]
+  },
+  "method_status": "FROZEN 2026-09-12 (rescaled): HAR-SF fixed switch (n_ref=365)",
+  "collapse_table_rows": {
+    "ranker": [
+      0.6507,
+      0.3051
+    ],
+    "direct_bce": [
+      0.6545,
+      0.3041
+    ],
+    "stgcn_event": [
+      0.6507,
+      0.3047
+    ],
+    "generalist_full": [
+      0.6448,
+      0.2992
+    ],
+    "xgboost": [
+      0.6317,
+      0.2703
+    ],
+    "shrinkage_full": [
+      0.6454,
+      0.3034
+    ]
+  },
+  "spectrum_note": "Seen budgets from the run summaries' test_by_L; unseen budgets via eval_generalist_at_L on the rs checkpoints; ranker rows invariant to the scaling fix.",
+  "method_spectrum_complete": true,
+  "boundary_note": "Unseen-budget HAR-SF gates are exactly 0 at L21/60/120 (pure generalist branch). At L365 (w=0.5) the blend scores 0.6348/0.3006, above both the generalist (0.6302) and the ranker (0.6191).",
+  "claim_wording": "At every measured budget HAR-SF stays within seed-level variation of the better expert and never trails either pointwise at seen budgets; at full history it equals the frequency ranker exactly at every k. The full-history generalist-minus-ranker CI excludes zero (-0.0059 [-0.0095,-0.0022]): no trained model exceeds the ranker beyond seed-level noise and the mixed-budget generalist sits marginally below.",
+  "provenance_note": "seed42 formal HAR-SF rerun on rescaled data; bootstrap CIs cross-checked against the frozen aggregates (90 aggregate checks, max diff 1.1e-16).",
+  "baseline_pointers": "Internal analysis notes; not distributed with this release."
+}

@@ -1,0 +1,12 @@
+{
+ "static_features_70cols_same_order": true,
+ "train_keys_schema": "identical (geom_hash)",
+ "labels_columns": "same name set; Chicago uses doc §4.3 int dtypes and column order (NYC legacy: y_risk first, float sums); name-based access unaffected",
+ "calendar": "columns and dtypes identical",
+ "weather": "20 x_wth_ channels identical; zone col id_weather_zone (2 zones) vs NYC id_borough (5 boroughs) by spec",
+ "line_graph": "node_id_map/edge_index/edge_weight same schema and format",
+ "region_scheme": "region_id 1-77 Community Areas (NYC: borough_id 5 boroughs); mask_region_<01..77>.npz mirrors NYC mask_borough_*.npz format (npz key=mask, aligned to node_idx)",
+ "dynamic_feature_names": "x_construction_*/x_311_*/x_mobility_* identical to NYC expansion; Chicago adds x_excavation_*/x_traffic_volume_* (chicago_full only)",
+ "id_date_convention": "YYYY-MM-DD strings in all road-day and daily files (both cities)",
+ "scaling_contract": "RAW parquet + scaler json + loader standardizes once (post-fix NYC contract)"
+}

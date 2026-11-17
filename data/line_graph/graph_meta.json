@@ -1,0 +1,24 @@
+{
+  "id_key": "id_geom_hash",
+  "deduplicate_edges": true,
+  "store_edge_weight": true,
+  "edge_index_path": "D:\\IDE\\PyCharm\\codes\\NYCTest\\NYC-build\\data\\derived\\exports\\line_graph\\edge_index.npy",
+  "edge_weight_path": "D:\\IDE\\PyCharm\\codes\\NYCTest\\NYC-build\\data\\derived\\exports\\line_graph\\edge_weight.npy",
+  "node_id_map_path": "D:\\IDE\\PyCharm\\codes\\NYCTest\\NYC-build\\data\\derived\\exports\\line_graph\\node_id_map.parquet",
+  "borough_path": "NYC-build\\data\\nybbwi_25d",
+  "borough_geojson": "D:\\IDE\\PyCharm\\codes\\NYCTest\\NYC-build\\meta\\nyc_boroughs_wgs84.geojson",
+  "borough_source_url": null,
+  "raw_edge_count": 235238,
+  "dedup_edge_count": 232712,
+  "duplicate_edges_removed": 2526,
+  "isolated_nodes": 0,
+  "isolated_ratio": 0.0,
+  "boroughs": [
+    "Bronx",
+    "Brooklyn",
+    "Manhattan",
+    "Queens",
+    "Staten Island"
+  ],
+  "timestamp": "2025-12-30T16:05:39.746634+00:00"
+}

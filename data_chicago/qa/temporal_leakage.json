@@ -1,0 +1,8 @@
+{
+  "rolling_boundary_unit_test": true,
+  "construction_recheck_bad": 0,
+  "excavation_recheck_bad": 0,
+  "sr311_recheck_bad": 0,
+  "mobility_recheck_bad": 0,
+  "traffic_recheck_bad": 0
+}

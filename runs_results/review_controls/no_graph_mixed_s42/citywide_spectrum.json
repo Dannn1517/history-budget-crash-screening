@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-13",
+  "scope": "citywide",
+  "split": "test",
+  "hr_ratio": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "hr_ratio_override": false,
+  "data_dir": "data",
+  "harsf_checkpoint": "runs_results/history_adaptive_formal/safe_fallback_fixed_switch_seed42_clean_rs/st_rghs_best.pt",
+  "generalist_checkpoint": "runs_results/review_controls/no_graph_mixed_s42/st_event_occurrence_weighted_bce_best.pt",
+  "borough_sizes": [
+    12902,
+    20204,
+    7820,
+    34646,
+    11410
+  ],
+  "by_budget": {
+    "14": {
+      "ranker": {
+        "es_recall": 0.2433,
+        "es_ndcg": 0.1482,
+        "es_recall_at_5": 0.1806,
+        "es_recall_at_10": 0.1953,
+        "es_recall_at_20": 0.2433,
+        "es_ndcg_at_5": 0.1206,
+        "es_ndcg_at_10": 0.1275,
+        "es_ndcg_at_20": 0.1482
+      },
+      "generalist": {
+        "es_recall": 0.5718,
+        "es_ndcg": 0.318,
+        "es_recall_at_5": 0.2818,
+        "es_recall_at_10": 0.4088,
+        "es_recall_at_20": 0.5718,
+        "es_ndcg_at_5": 0.1879,
+        "es_ndcg_at_10": 0.2473,
+        "es_ndcg_at_20": 0.318
+      },
+      "harsf": {
+        "es_recall": 0.5852,
+        "es_ndcg": 0.3292,
+        "es_recall_at_5": 0.2986,
+        "es_recall_at_10": 0.4203,
+        "es_recall_at_20": 0.5852,
+        "es_ndcg_at_5": 0.2007,
+        "es_ndcg_at_10": 0.2576,
+        "es_ndcg_at_20": 0.3292
+      },
+      "margin_generalist_minus_ranker_R20": 0.3285,
+      "margin_harsf_minus_ranker_R20": 0.3419
+    },
+    "90": {
+      "ranker": {
+        "es_recall": 0.5417,
+        "es_ndcg": 0.3093,
+        "es_recall_at_5": 0.287,
+        "es_recall_at_10": 0.3951,
+        "es_recall_at_20": 0.5417,
+        "es_ndcg_at_5": 0.1945,
+        "es_ndcg_at_10": 0.2452,
+        "es_ndcg_at_20": 0.3093
+      },
+      "generalist": {
+        "es_recall": 0.6242,
+        "es_ndcg": 0.3542,
+        "es_recall_at_5": 0.3262,
+        "es_recall_at_10": 0.461,
+        "es_recall_at_20": 0.6242,
+        "es_ndcg_at_5": 0.2204,
+        "es_ndcg_at_10": 0.2833,
+        "es_ndcg_at_20": 0.3542
+      },
+      "harsf": {
+        "es_recall": 0.6326,
+        "es_ndcg": 0.3592,
+        "es_recall_at_5": 0.3354,
+        "es_recall_at_10": 0.4689,
+        "es_recall_at_20": 0.6326,
+        "es_ndcg_at_5": 0.2258,
+        "es_ndcg_at_10": 0.2882,
+        "es_ndcg_at_20": 0.3592
+      },
+      "margin_generalist_minus_ranker_R20": 0.0825,
+      "margin_harsf_minus_ranker_R20": 0.0909
+    },
+    "0": {
+      "ranker": {
+        "es_recall": 0.6667,
+        "es_ndcg": 0.3777,
+        "es_recall_at_5": 0.3563,
+        "es_recall_at_10": 0.499,
+        "es_recall_at_20": 0.6667,
+        "es_ndcg_at_5": 0.2381,
+        "es_ndcg_at_10": 0.3047,
+        "es_ndcg_at_20": 0.3777
+      },
+      "generalist": {
+        "es_recall": 0.6646,
+        "es_ndcg": 0.3761,
+        "es_recall_at_5": 0.3533,
+        "es_recall_at_10": 0.4948,
+        "es_recall_at_20": 0.6646,
+        "es_ndcg_at_5": 0.2363,
+        "es_ndcg_at_10": 0.3024,
+        "es_ndcg_at_20": 0.3761
+      },
+      "harsf": {
+        "es_recall": 0.6667,
+        "es_ndcg": 0.3777,
+        "es_recall_at_5": 0.3563,
+        "es_recall_at_10": 0.499,
+        "es_recall_at_20": 0.6667,
+        "es_ndcg_at_5": 0.2381,
+        "es_ndcg_at_10": 0.3047,
+        "es_ndcg_at_20": 0.3777
+      },
+      "margin_generalist_minus_ranker_R20": -0.0021,
+      "margin_harsf_minus_ranker_R20": 0.0
+    }
+  }
+}

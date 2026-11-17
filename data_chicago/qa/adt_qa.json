@@ -1,0 +1,19 @@
+{
+  "n_links": 43335,
+  "adt_raw_rows": 1123290,
+  "adt_dedup_dropped": 0,
+  "adt_valid_rows": 1123290,
+  "adt_actual_coverage": [
+    "2022-07-28",
+    "2024-12-31"
+  ],
+  "adt_coverage_note": "ADT 实际观测始于 2022-07-28（门户描述标称 2020-10-07 起，但 2022-07 前 timestamp 无数据，count 查询确认为 0）；此前 road-day 全部为填补值，mask=0",
+  "adt_segments": 2008,
+  "adt_segment_link_pairs": 7614,
+  "adt_links_with_segment": 4332,
+  "adt_link_coverage": 0.09996538594669435,
+  "adt_observed_link_days": 2330953,
+  "adt_observed_roaday_rate": 0.03681666958473481,
+  "adt_imputed_roaday_rate": 0.9631833304152652,
+  "traffic_export_rows": 63312435
+}

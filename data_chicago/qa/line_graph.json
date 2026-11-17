@@ -1,0 +1,10 @@
+{
+  "isolated_ratio": 0.00126918195454021,
+  "gate_isolated_lt_0.5pct": true,
+  "isolated_causes": {
+    "neighbor_freeway": 49,
+    "neighbor_boundary_edge+neighbor_centerline_unmatched": 3,
+    "neighbor_boundary_edge": 3
+  },
+  "isolated_reported_per_spec": true
+}

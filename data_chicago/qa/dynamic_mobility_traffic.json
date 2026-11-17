@@ -1,0 +1,40 @@
+{
+  "n_links": 43335,
+  "mobility_files": 856,
+  "mobility_rows": 459235,
+  "mobility_null_ca_dropped": "see server-side agg (ca null rows skipped)",
+  "mobility_export_rows": 63312435,
+  "mobility_pickups_daily_mean": 196978.9128686327,
+  "adt_raw_rows": 1123290,
+  "adt_dedup_dropped": 0,
+  "adt_valid_rows": 1123290,
+  "adt_actual_coverage": [
+    "2022-07-28",
+    "2024-12-31"
+  ],
+  "adt_coverage_note": "ADT 实际观测始于 2022-07-28（门户描述标称 2020-10-07 起，但 2022-07 前 timestamp 无数据，count 查询确认为 0）；此前 road-day 全部为填补值，mask=0",
+  "adt_segments": 2008,
+  "adt_segment_link_pairs": 7614,
+  "adt_links_with_segment": 4332,
+  "adt_link_coverage": 0.09996538594669435,
+  "adt_observed_link_days": 2330953,
+  "adt_observed_roaday_rate": 0.03681666958473481,
+  "adt_imputed_roaday_rate": 0.9631833304152652,
+  "traffic_export_rows": 63312435,
+  "tracker_rows": 1209285,
+  "tracker_segments": 1047,
+  "tracker_date_range": [
+    "2020-12-01",
+    "2024-12-31"
+  ],
+  "months_missing": [
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-04",
+    "2024-05"
+  ],
+  "structural_gap_note": "与文档预期一致的结构性缺口（留档数据，不进主模型）"
+}

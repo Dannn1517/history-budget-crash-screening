@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "question": "Does resampling partition blocks independently (rather than with calendar-synchronised blocks across partitions) materially change the pooled stratified margin intervals?",
+  "protocol": {
+    "bundles_from": "generalist recorded args (feature contract of its training)",
+    "scorers": [
+      "ranker",
+      "generalist"
+    ],
+    "ratio": 0.2,
+    "block_len": 14,
+    "n_boot": 2000,
+    "seed": 42,
+    "note": "Partition window axes are calendar-aligned (identical window counts), so synchronised draws use one shared block-origin matrix for all partitions, preserving cross-partition contemporaneous correlation."
+  },
+  "rows": [
+    {
+      "L": 14,
+      "partition_windows": [
+        242,
+        242,
+        242,
+        242,
+        242
+      ],
+      "margin_point": 0.1858,
+      "ci_independent_blocks": [
+        0.1808,
+        0.1905
+      ],
+      "ci_synchronised_blocks": [
+        0.1805,
+        0.1912
+      ],
+      "max_endpoint_shift": 0.0007
+    },
+    {
+      "L": 90,
+      "partition_windows": [
+        242,
+        242,
+        242,
+        242,
+        242
+      ],
+      "margin_point": 0.0478,
+      "ci_independent_blocks": [
+        0.0447,
+        0.0509
+      ],
+      "ci_synchronised_blocks": [
+        0.045,
+        0.0509
+      ],
+      "max_endpoint_shift": 0.0003
+    },
+    {
+      "L": 0,
+      "partition_windows": [
+        242,
+        242,
+        242,
+        242,
+        242
+      ],
+      "margin_point": -0.0173,
+      "ci_independent_blocks": [
+        -0.0218,
+        -0.0127
+      ],
+      "ci_synchronised_blocks": [
+        -0.0253,
+        -0.0089
+      ],
+      "max_endpoint_shift": 0.0038
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "question": "How much of the short-history ranker behaviour and margin is determined by zero-score ties and the tie-breaking convention?",
+  "protocol": {
+    "date_range": [
+      "2021-01-01",
+      "2024-12-31"
+    ],
+    "boroughs": [
+      "super_1",
+      "super_2",
+      "super_3",
+      "super_4",
+      "super_5"
+    ],
+    "history_len": 14,
+    "horizon": 3,
+    "budgets": [
+      14,
+      90,
+      0
+    ],
+    "share": 0.2,
+    "test_windows": 242,
+    "random_repeats": 20,
+    "seed": 42,
+    "run": 1,
+    "static_prior": "logistic C=0.01 on 200k sampled train rows, horizon-0 score",
+    "git_commit_at_start": "0694fb3ad17d70a08f3e3ba5ee815445f1b3c60b",
+    "git_dirty_at_start": true,
+    "git_tracked_dirty_at_start": true,
+    "git_tracked_dirty_files_at_start": ["[internal worktree file list omitted for the public release]"],
+    "git_untracked_count_at_start": 129
+  },
+  "by_budget": {
+    "14": {
+      "rules": {
+        "stratified": {
+          "recall_at_20_deterministic": 0.3467682263329706,
+          "recall_at_20_random_mean": 0.34594970378430656,
+          "recall_at_20_random_std": 0.0016530805009768073,
+          "recall_at_20_static_prior": 0.5300979325353645
+        },
+        "citywide": {
+          "recall_at_20_deterministic": 0.35078225123926976,
+          "recall_at_20_random_mean": 0.3500546487728207,
+          "recall_at_20_random_std": 0.0016192794225517756,
+          "recall_at_20_static_prior": 0.5534905090073752
+        }
+      },
+      "zero_fraction_mean": 0.9195101205579822,
+      "tie_determined_citywide_mean": 0.5975506027899118,
+      "tie_determined_stratified_mean": 0.5999893696454609
+    },
+    "90": {
+      "rules": {
+        "stratified": {
+          "recall_at_20_deterministic": 0.5284197799540563,
+          "recall_at_20_random_mean": 0.5283385322210131,
+          "recall_at_20_random_std": 0.0005906088623411693,
+          "recall_at_20_static_prior": 0.5586942328618063
+        },
+        "citywide": {
+          "recall_at_20_deterministic": 0.5368975940031435,
+          "recall_at_20_random_mean": 0.5377477934953453,
+          "recall_at_20_random_std": 0.0008560389960915844,
+          "recall_at_20_static_prior": 0.5870825776810543
+        }
+      },
+      "zero_fraction_mean": 0.6783170132362997,
+      "tie_determined_citywide_mean": 0.3415567932701889,
+      "tie_determined_stratified_mean": 0.3760415204486585
+    },
+    "0": {
+      "rules": {
+        "stratified": {
+          "recall_at_20_deterministic": 0.6271841373473582,
+          "recall_at_20_random_mean": 0.6277054769677186,
+          "recall_at_20_random_std": 0.00033183941228565354,
+          "recall_at_20_static_prior": 0.628538266231411
+        },
+        "citywide": {
+          "recall_at_20_deterministic": 0.6442509974610083,
+          "recall_at_20_random_mean": 0.6443162858179179,
+          "recall_at_20_random_std": 0.00024407619096706467,
+          "recall_at_20_static_prior": 0.6452665941240479
+        }
+      },
+      "zero_fraction_mean": 0.15102416594911638,
+      "tie_determined_citywide_mean": 0.04293334553883974,
+      "tie_determined_stratified_mean": 0.0458501405330809
+    }
+  },
+  "wall_seconds": 96.38706428196747
+}

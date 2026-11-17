@@ -1,0 +1,48 @@
+{
+  "source": "Open-Meteo archive API, models=era5",
+  "timezone": "America/Chicago",
+  "stations": {
+    "ohare": {
+      "name": "O'Hare",
+      "lat": 41.96017,
+      "lon": -87.93164,
+      "ghcnd": "USW00094846"
+    },
+    "midway": {
+      "name": "Midway",
+      "lat": 41.78412,
+      "lon": -87.75514,
+      "ghcnd": "USW00014819"
+    }
+  },
+  "zones": [
+    "ohare",
+    "midway"
+  ],
+  "start_date": "2021-01-01",
+  "end_date": "2024-12-31",
+  "warmup_downloaded_from": "2020-12-31",
+  "channels": [
+    "x_wth_weather_code",
+    "x_wth_precipitation_sum",
+    "x_wth_rain_sum",
+    "x_wth_snowfall_sum",
+    "x_wth_precipitation_hours",
+    "x_wth_temperature_2m_max",
+    "x_wth_temperature_2m_min",
+    "x_wth_temperature_2m_mean",
+    "x_wth_apparent_temperature_max",
+    "x_wth_apparent_temperature_min",
+    "x_wth_wind_speed_10m_max",
+    "x_wth_wind_gusts_10m_max",
+    "x_wth_wind_dir_sin",
+    "x_wth_wind_dir_cos",
+    "x_wth_precip_any",
+    "x_wth_snow_any",
+    "x_wth_freeze_day",
+    "x_wth_wet_and_freeze",
+    "x_wth_precip_any_lag1",
+    "x_wth_snow_any_lag1"
+  ],
+  "zone_assignment": "community area centroid -> nearest station (see line_graph/weather_zone_id.npy)"
+}

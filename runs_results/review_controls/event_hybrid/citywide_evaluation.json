@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "evaluation_scope": "unconstrained_citywide_same_day",
+  "source_summary": "./runs_results/review_controls/event_hybrid/st_event_occurrence_summary_09042341.json",
+  "source_checkpoint": "./runs_results/review_controls/event_hybrid/st_event_occurrence_hybrid_best.pt",
+  "source_selected_epoch": 1,
+  "source_selection_scope": "borough_stratified",
+  "model": "st_event_occurrence",
+  "graph_supervision": "target_mse",
+  "git_commit_at_evaluation": "156e85f4f46524ca252dd4a732bc1a71e2122d33",
+  "val_metrics": {
+    "es_recall": 0.7224880937613607,
+    "es_ndcg": 0.4071685107500805,
+    "es_recall_at_5": 0.3855005616949872,
+    "es_recall_at_10": 0.5379876009998109,
+    "es_recall_at_20": 0.7224880937613607,
+    "es_ndcg_at_5": 0.2542506567270177,
+    "es_ndcg_at_10": 0.3263309041944633,
+    "es_ndcg_at_20": 0.4071685107500805,
+    "event_bce": 0.06299404835535181,
+    "event_brier": 0.006016548825488926
+  },
+  "test_metrics": {
+    "es_recall": 0.6826546084049371,
+    "es_ndcg": 0.3799168942610411,
+    "es_recall_at_5": 0.3563892337802261,
+    "es_recall_at_10": 0.5024714567527683,
+    "es_recall_at_20": 0.6826546084049371,
+    "es_ndcg_at_5": 0.2331280667447172,
+    "es_ndcg_at_10": 0.3016153300183283,
+    "es_ndcg_at_20": 0.3799168942610411,
+    "event_bce": 0.06105269511426575,
+    "event_brier": 0.005784972829547789
+  },
+  "test_delta_citywide_minus_stratified": {
+    "es_recall_at_5": 0.02279510608544899,
+    "es_recall_at_10": 0.03980897743155226,
+    "es_recall_at_20": 0.03981509282920748,
+    "es_ndcg_at_5": 0.03803854203414622,
+    "es_ndcg_at_10": 0.0603629327790933,
+    "es_ndcg_at_20": 0.08058330464884167
+  }
+}

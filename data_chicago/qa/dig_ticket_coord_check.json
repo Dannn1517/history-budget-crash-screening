@@ -1,0 +1,32 @@
+[
+ {
+  "dig_ticket_": "601021896",
+  "n_notices_sampled": 560,
+  "distinct_lats": [
+   "41.8695488482"
+  ],
+  "distinct_lons": [
+   "-87.651271529"
+  ]
+ },
+ {
+  "dig_ticket_": "601008577",
+  "n_notices_sampled": 396,
+  "distinct_lats": [
+   "41.976201139"
+  ],
+  "distinct_lons": [
+   "-87.9053091251"
+  ]
+ },
+ {
+  "dig_ticket_": "601008582",
+  "n_notices_sampled": 373,
+  "distinct_lats": [
+   "41.976201139"
+  ],
+  "distinct_lons": [
+   "-87.9053091251"
+  ]
+ }
+]
